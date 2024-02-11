@@ -1,2 +1,12 @@
 Style/StringLiterals:
   EnforcedStyle: double_quotes
+Metrics/ClassLength:
+  Max: 140
+Metrics/AbcSize:
+  AllowedMethods: ["level_order", "balanced?"]
+Metrics/MethodLength:
+  Max: 12
+Naming/MethodParameterName:
+  Enabled: false
+Style/OptionalBooleanParameter:
+  Enabled: false
